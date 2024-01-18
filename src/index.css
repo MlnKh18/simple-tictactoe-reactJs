@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: #1e1e1e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  color: white;
+}
+
+.square {
+  width: 45px;
+  height: 45px;
+  border: 1px solid rgb(177, 177, 177);
+  background-color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.square:hover {
+  border: 2px solid black;
+  transition: all ease-in 0.5ms;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 135px;
+  height: 135px;
+}
+.status{
+  margin: 10px;
+}
+.game{
+  display: flex;
+}
+.button{
+  background: #000;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.button:hover{
+  background: rgb(31, 31, 31);
+}
